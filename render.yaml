@@ -1,9 +1,8 @@
-# Exported from Render on 2024-04-20T17:23:49Z
 services:
 - type: web
   name: educational website
   runtime: node
-  repo: https://github.com/FrogiesArcade/FrogiesArcade-v2-Portable
+  repo: https://github.com/szvy/szvycentral-portable/
   plan: free
   region: oregon
   buildCommand: npm i
