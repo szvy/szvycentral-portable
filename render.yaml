@@ -1,0 +1,12 @@
+# Exported from Render on 2024-09-03T02:19:59Z
+services:
+- type: web
+  name: funmathsite
+  runtime: node
+  repo: https://github.com/szvy/szvycentral-portable
+  plan: free
+  region: oregon
+  buildCommand: npm i
+  startCommand: node index.js
+  rootDir: .
+version: "1"
